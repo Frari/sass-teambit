@@ -14,7 +14,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {C
+  "devDependencies": {
     "cross-env": "^5.2.0",
     "laravel-mix": "^4.0.16",
     "resolve-url-loader": "^2.3.1",
