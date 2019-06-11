@@ -1,25 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 #nav {
   width: 100%;
-  height: 100px;
-  border: 1px solid black;
+  height: 75px;
 }
 
 #nav .container_center {
   width: 80%;
   margin: 0 auto;
+  height: 100%;
   display: flex;
   justify-content: space-between;
+  border-bottom: 1px solid #58402c;
 }
 
 .nav_left {
   width: 20%;
+  height: 100%;
+  display: flex;
+  align-items: center;
 }
 
 .nav_right {
   width: 80%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.nav_right i {
+  margin-left: 10px;
+}
+
+.nav_right a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #58402c;
+  font-weight: bold;
 }
 
 .container_principale {
   width: 100%;
+  height: 500px;
+}
+
+.prima {
+  width: 100%;
+  height: 655px;
+}
+
+.prima .container_int_prima {
+  height: 100%;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.prima .container_int_prima .prima_left {
+  width: 50%;
+  height: 100%;
+  float: left;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.prima .container_int_prima .prima_left h1 {
+  font-size: 60px;
+  color: #58402c;
+}
+
+.prima .container_int_prima .prima_left h3 {
+  font-size: 30px;
+  color: #58402c;
+  margin: 40px 0;
+}
+
+.prima .container_int_prima .prima_left span {
+  color: #cfd7ef;
+  margin: 0 10px;
+}
+
+.prima .container_int_prima .prima_left a {
+  color: #58402c;
+  text-decoration: none;
+  margin-top: 20px;
+}
+
+.prima .container_int_prima .prima_left a i {
+  color: #58402c;
+  margin-left: 5px;
+}
+
+.prima .container_int_prima .bottons_signs a {
+  color: white;
+  background-color: #30488f;
+  width: 185px;
+  height: 35px;
+  padding: 7px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.prima .container_int_prima .prima_right {
+  width: 50%;
+  height: 100%;
+  float: left;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.prima .container_int_prima .prima_right img {
+  width: 100%;
+  height: 350px;
 }
 
