@@ -57,7 +57,7 @@
     }
   }
 }
-// sezione arancione sotto la pirma bianca
+// sezione arancione sotto la pirma bianca/ sia seconda che quarta section
 .seconda{
   width: 100%;
   height: 400px;
@@ -65,19 +65,57 @@
   .container_int_seconda{
     @include container_centrale;
     @include flex2;
-    align-items:center;
-    justify-content: space-between;
+    #title_seconda{
+      text-align: center;
+      font-size: 30px;
+      margin: 60px 0 0 0;
+    }
   }
 }
 .triple_img_seconda{
-  @include flex1;
+  display: flex;
+  justify-content: center;
   height: 197px;
   div{
+    margin: 60px 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     width: 273px;
     height: 197px;
     img{
       width: 140px;
       height: 105px;
     }
+    h3{
+      margin-top: 30px;
+      text-align: center;
+    }
   }
+}
+#gatto{
+  width: 60px;
+  height: 105px;
+}
+// terza sezione arancione con immagine coniglio container_centrale
+.terza{
+  width: 100%;
+  height: 500px;
+  background-color: $colore_secondario;
+  .container_int_terza{
+    @include container_centrale;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid $colore_testo;
+    img{
+      width: 280px;
+      height: 286px;
+    }
+  }
+}
+// quinta section
+#cont_sec_coniglio{
+  border-bottom: none;
 }
