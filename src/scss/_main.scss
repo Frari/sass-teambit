@@ -38,7 +38,7 @@
     }
     .bottons_signs a{
       color: white;
-      background-color: #30488f;
+      background-color: $colore_bottoni;
       width: 185px;
       height: 35px;
       padding: 7px 20px;
@@ -118,4 +118,50 @@
 // quinta section
 #cont_sec_coniglio{
   border-bottom: none;
+}
+// sesta section
+.sesta{
+  width: 100%;
+  height: 600px;
+  background-color: white;
+  .sesta_left{
+    width: 50%;
+    height: 100%;
+    float: left;
+    display: flex;
+    align-items: center;
+    img{
+      width: 768px;
+      height: 470px;
+    }
+  }
+  .sesta_right{
+    width: 50%;
+    height: 100%;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    h2{
+      font-size: 26px;
+      margin: 15px 40px;
+    }
+    h4{
+      font-size: 20px;
+      margin: 15px 40px;
+
+    }
+    a{
+      text-decoration: none;
+      color: $colore_testo;
+      margin: 20px 40px;
+      font-size: 22px;
+
+    }
+    img{
+      width: 270px;
+      height: 200px;
+      margin: 20px 80px;
+    }
+  }
 }
