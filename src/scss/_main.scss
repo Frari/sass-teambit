@@ -57,3 +57,27 @@
     }
   }
 }
+// sezione arancione sotto la pirma bianca
+.seconda{
+  width: 100%;
+  height: 400px;
+  background-color: $colore_secondario;
+  .container_int_seconda{
+    @include container_centrale;
+    @include flex2;
+    align-items:center;
+    justify-content: space-between;
+  }
+}
+.triple_img_seconda{
+  @include flex1;
+  height: 197px;
+  div{
+    width: 273px;
+    height: 197px;
+    img{
+      width: 140px;
+      height: 105px;
+    }
+  }
+}
